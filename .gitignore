@@ -1,3 +1,4 @@
+DCT_data/
 *.swp
 *.jpg
 *.png
@@ -14,4 +15,6 @@ evaluate_results/
 *.npy
 test_log.txt
 test_log*
-DCT_data/
+DCT_data/*
+demo/
+DCT_data

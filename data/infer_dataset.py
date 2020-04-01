@@ -47,6 +47,7 @@ class InferDataset(data.Dataset):
         # load raw data
         img_path = single_data['image_path']
         # open image
+        #print(self.opt, img_path, self.annotation_path)
         img = cv2.imread(img_path)
         img = self.preprocess_data(img)
         # change numpy.array to torch.tensor
